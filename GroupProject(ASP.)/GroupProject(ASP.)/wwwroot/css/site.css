@@ -1,0 +1,268 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tab-content {
+    display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: blue;
+}
+
+    .nav-link:hover {
+        color: darkblue;
+    }
+
+.mini-page {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.mini-navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.mini-navbar a {
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.mini-navbar a:hover {
+   background-color: #ddd;
+   color: black;
+}
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.tab-content {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-content h2 {
+        margin-bottom: 10px;
+}
+
+.stay-options {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+
+.stay-options li {
+    margin-right: 20px; /* Adjust spacing between options */
+ }
+
+ .stay-options li a {
+   text-decoration: none;
+   color: black;
+ }
+.footer {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+    .footer-section h3 {
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .footer-section ul li {
+            margin-bottom: 5px;
+        }
+
+            .footer-section ul li a {
+                text-decoration: none;
+                color: #333;
+            }
+
+                .footer-section ul li a:hover {
+                    color: #666;
+                }
+.footer-container {
+    background-color: #f0f0f0; /* Match the background color of footer boxes */
+    display: flex;
+    justify-content: space-between; /* Distribute boxes evenly */
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+}
+
+.stay-options {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+}
+
+    .stay-options li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+        .stay-options li a {
+            text-decoration: none;
+        }
+
+/* CSS for image container */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Increase height by 2 pixels */
+    overflow: hidden;
+}
+
+    /* Dark overlay to enhance text visibility */
+    .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    }
+
+    /* CSS for image */
+    .image-container img {
+        width: 100%; /* Make sure the image fills the entire width of the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+/* CSS for text overlay */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensure text appears above the overlay */
+}
+.trending-destinations {
+    margin-top: 20px;
+}
+.last-minute-deals {
+    margin-top: 20px;
+}
+.slider-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.expedia-app {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text-container {
+    flex: 2;
+}
+
+.qr-code-container {
+    flex: 1;
+}
+
+
+.slider {
+    display: inline-flex;
+}
+
+.slide {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    line-height: 200px;
+    text-align: center;
+}
+
+
+/* CSS for button */
+.book-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+    .book-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
